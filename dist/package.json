@@ -1,0 +1,30 @@
+{
+  "name": "@powwow/string-utils",
+  "version": "0.0.1",
+  "description": "A set of JavaScript string utils",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsPowWow/powwow-string-utils.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "utils",
+    "utilities"
+  ],
+  "author": "Oleksandr Radvanskyi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JsPowWow/powwow-string-utils/issues"
+  },
+  "homepage": "https://github.com/JsPowWow/powwow-string-utils#readme"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@powwow/string-utils",
+  "version": "0.0.1",
+  "description": "A set of JavaScript string utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JsPowWow/powwow-string-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "utils",
+    "utilities"
+  ],
+  "author": "Oleksandr Radvanskyi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JsPowWow/powwow-string-utils/issues"
+  },
+  "homepage": "https://github.com/JsPowWow/powwow-string-utils#readme",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc --build tsconfig.es6.json && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
